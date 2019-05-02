@@ -13,5 +13,6 @@ public class Dashboard{
         // creats tab on shuffleboard dashboard
         public ShuffleboardTab tab = Shuffleboard.getTab("Driver Info");
         
+        
     }
 }
