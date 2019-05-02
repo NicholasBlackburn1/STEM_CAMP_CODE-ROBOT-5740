@@ -30,10 +30,13 @@ import edu.wpi.first.wpilibj.interfaces.Gyro;
  */
 public class OI {
   
+  // Defines PowerDistributionPanel --> To Can Id 6
   public static PowerDistributionPanel pdp = new PowerDistributionPanel(RobotMap.pdpCAN);
 
+  // Defines Xbox Controller 1 --> Controller port  
   public static Joystick controller1 = new Joystick(RobotMap.controllerOnePort);
 
+  // Defines TallonSRX CAN motor controlers --> To Can Id's
   public static WPI_TalonSRX leftFrontDriveMotor = new WPI_TalonSRX(RobotMap.leftFrontDriveCAN);
   public static WPI_TalonSRX leftCenterDriveMotor = new WPI_TalonSRX(RobotMap.leftCenterDriveCAN);
   public static WPI_TalonSRX leftBackDriveMotor = new WPI_TalonSRX(RobotMap.leftBackDriveCAN);

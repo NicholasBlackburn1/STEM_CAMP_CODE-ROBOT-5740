@@ -14,14 +14,18 @@ package frc.robot;
  * floating around.
  */
 public class RobotMap {
+  // Defined pdp --> Can Id 
   public static int pdpCAN = 6;
+  
+  // Defined xbox Controller 1 --> port 0
   public static int controllerOnePort = 0;
-
+  
+  // Defined all TallonSrx Motor controllers --> Can Id's 4 - 15
   public static int leftFrontDriveCAN = 15; 
   public static int leftCenterDriveCAN = 11;
   public static int leftBackDriveCAN = 12;
   public static int rightFrontDriveCAN = 4;
   public static int rightCenterDriveCAN = 13;
   public static int rightBackDriveCAN = 14;
-  
+
 }
