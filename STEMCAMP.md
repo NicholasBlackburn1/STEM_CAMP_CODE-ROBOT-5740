@@ -5,9 +5,9 @@
 3. should be simple to teach 
 ## code requirements 
 1. show them how to program / what some funtions 
-2. show them the correct way 
+2. show them the correct way to program
 3. prebuild code to show them how to do it 
-4. split up workload to different groups 
+4. split up workload into different sub groups 
 ## help requirements 
 1. I would like some people form programming team to help me run the programming section
 ## Material requirements 
