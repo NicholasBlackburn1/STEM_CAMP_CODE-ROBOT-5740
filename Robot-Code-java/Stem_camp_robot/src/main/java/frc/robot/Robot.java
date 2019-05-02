@@ -30,6 +30,7 @@ public class Robot extends TimedRobot {
    */
   @Override
   public void robotInit() {
+    // Inits DriveTrain 
    DriveTrain.Init();
   }
 
@@ -62,11 +63,10 @@ public class Robot extends TimedRobot {
     
   }
 
-  /**
-   * This function is called periodically during operator control.
-   */
   @Override
   public void teleopPeriodic() {
- 
+
+    // Calls DriveTrain --> Periodically --> When Driver controlled 
+    DriveTrain.Periodic();
   }
 }
